@@ -104,3 +104,23 @@ if (grade === 100) {
 } else {
     console.log("you are failing")
 }
+
+// Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable.
+let variableType = "seth"
+console.log(typeof variableType)
+
+// Create a password checker using a single conditional statement. If a user inputs a password with 12 or more
+// characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password
+// is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password."
+// for every other input.
+
+let userPassword = "user"
+
+if (userPassword.length >= 12 && userPassword.includes("!")) {
+    console.log("that's is a mighty strong password")
+} else if (userPassword.length >= 8 || userPassword.includes("!")) {
+    console.log("that password is strong enough")
+} else {
+    console.log("that is not a valid password")
+}
+
