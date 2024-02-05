@@ -1,28 +1,36 @@
 // 1. Write a function named marco that returns "polo".
-const marco = () => {
-    return "polo"
-}
-console.log(marco());
+    // const marco = () => {
+    //     return "polo"
+    // }
+    // console.log(marco());
 
 // 2. Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
-const greeting = (name) => {
-    return `welcome, ${name}!`
-}
-console.log(greeting("seth"));
+    // const greeting = (name) => {
+    //     return `welcome, ${name}!`
+    // }
+    // console.log(greeting("seth"));
 
 // 3. Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
-const oddOrEven = (num) => {
-    if (num % 2 === 0) {
-        return `the number ${num} is even`
-    } else {
-        return `the number ${num} is odd`
-    }
-}
-console.log(oddOrEven(6));
+    // const oddOrEven = (num) => {
+    //     if (num % 2 === 0) {
+    //         return `the number ${num} is even`
+    //     } else {
+    //         return `the number ${num} is odd`
+    //     }
+    // }
+    // console.log(oddOrEven(6));
 
 // 4. Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
+    // const triple = (num) => {
+    //     return `${num} * 3 is: ${num * 3}`
+    // }
+    // console.log(triple(10));
 
 // 5. Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
+    // const multiply = (num1, num2) => {
+    //     return `${num1} x ${num2} is ${num1 * num2}`
+    // }
+    // console.log(multiply(5, 5));
 
 // 6. Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
