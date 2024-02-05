@@ -64,7 +64,7 @@ const myString = "learn student"
 //     }
 
 // 9. Create the code that will log every other character in the string.
-let stringArr = myString.split("");
-for (let i = 0; i < stringArr.length; i+=2) {
-    console.log(stringArr[i]);
-}
+// let stringArr = myString.split("");
+// for (let i = 0; i < stringArr.length; i+=2) {
+//     console.log(stringArr[i]);
+// }
