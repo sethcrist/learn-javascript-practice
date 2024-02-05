@@ -24,17 +24,47 @@
         // }
 
 
-const nums = [3, 57, -9, 20, 67]
+const nums = [3, 57, -9, 20, 67,]
 // 5. Create the code that will log the largest number from the array.
-let max = 0
-for (let i = 0; i < nums.length; i++) {
-    if(nums[i] > max) { //In each iteration, you compare the current element (nums[i]) with max.
-        max = nums[i];
-    }
-}
-console.log(max);
+    // let max = 0
+    // for (let i = 0; i < nums.length; i++) {
+    //     if(nums[i] > max) { //In each iteration, you compare the current element (nums[i]) with max.
+    //         max = nums[i];
+    //     }
+    // }
+    // console.log(max);
 
 // 6. Create the code that will log the smallest number from the array.
+    // let least = 0;
+    // for (let i = 0; i < nums.length; i++) {
+    //     if (nums[i] < least) {
+    //         least = nums[i];
+    //         console.log(nums[i])
+    //
+    //     }
+    // }
 
 // 7. Create the code that will log the remainder of each number when divided by 2.
     //Expected output: 1, 1, -1, 0, 1
+    // for (let i = 0; i < nums.length; i++){
+    //     console.log(nums[i] % 2);
+    // }
+
+
+const myString = "learn student"
+
+// 8. Create the code that will log the number of times the letter "e" occurs in the string.
+//     let stringE =0;
+//     for (let i = 0; i < myString.length; i++) {
+//         if(myString[i] === "e") {
+//             stringE++
+//             console.log(stringE);
+//
+//         }
+//     }
+
+// 9. Create the code that will log every other character in the string.
+let stringArr = myString.split("");
+for (let i = 0; i < stringArr.length; i+=2) {
+    console.log(stringArr[i]);
+}
