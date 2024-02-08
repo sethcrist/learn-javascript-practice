@@ -1,6 +1,15 @@
 // 1. Write a function that takes in an array of numbers and returns an array with all numbers multiplied by 3.
 const testArr1 = [3, 9, 15, 4, 10]
 // output: [9, 27, 45, 12, 30]
+const multThree = (num) => {
+    let newArray = [];
+    for (let i = 0; i < num.length; i++) {
+        newArray.push(num[i] * 3);
+    }
+    return newArray
+}
+console.log(multThree(testArr1))
+console.log("======================")
 
 // 2. Write a function that takes in an array of numbers and returns a new array with only odd numbers.
 const testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
@@ -25,6 +34,15 @@ const testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
     "k"
 ]
 // output: "nicework"
+// using .filter() method
+    // const stringCreator = (array) => {
+    // let string = array.filter((value) => {
+    // return typeof value === "string"
+    // })
+    // return string.join("")
+    // }
+    // console.log(stringCreator(comboArr))
+
 
 // 4. Create a function that takes in an array of numbers and returns the sum.
 const addThese1 = [1, 2, 3, 4]
