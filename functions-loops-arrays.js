@@ -85,26 +85,3 @@ const returnsIndex = (array) => {
 }
 console.log(returnsIndex(indexHighestNumber))
 
-// 6. Create a function that takes in two arrays and returns one array with no duplicate values.
-const arr1 = [3, 7, 10, 5, 4, 3, 3]
-const arr2 = [7, 8, 2, 3, 1, 5, 4]
-// output: [3, 7, 10, 5, 4, 8, 2, 1]
-const twoIntoOne = (arr1, arr2) => {
-     let arr = []
-    for (let i = 0; i < arr1.length; i++) {
-        if (arr.includes(arr1[i])) {
-            continue
-        } else {
-            arr.push(arr1[i])
-        }
-    }
-    for (let i = 0; i < arr2.length; i++) {
-        if (arr.includes(arr2[i])) {
-            continue
-        } else {
-            arr.push(arr2[i])
-        }
-    }
-    return arr
- }
- console.log(twoIntoOne(arr1, arr2));

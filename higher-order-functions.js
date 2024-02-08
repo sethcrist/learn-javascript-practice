@@ -58,3 +58,46 @@ const str = "javascript is awesome"
 // 9. Create a function that takes in a string containing numbers and returns an array with each number at its own index and converted to the data type of number.
 const stringOfNumbers = "4574328"
 // output: [4, 5, 7, 4, 3, 2, 8]
+// const stringConverter = (numString) => {
+//  return numString.split('').map(Number)
+// }
+// console.log(stringConverter(stringOfNumbers))
+
+// 10. Create a function that takes in two arrays and returns one array with no duplicate values.
+const arr4 = [3, 7, 10, 5, 4, 3, 3]
+const arr5 = [7, 8, 2, 3, 1, 5, 4]
+// output: [3, 7, 10, 5, 4, 8, 2, 1]
+// const twoIntoOne = (arr1, arr2) => {
+//  let arr = []
+//  for (let i = 0; i < arr1.length; i++) {
+//   if (arr.includes(arr1[i])) {
+//    continue
+//   } else {
+//    arr.push(arr1[i])
+//   }
+//  }
+//  for (let i = 0; i < arr2.length; i++) {
+//   if (arr.includes(arr2[i])) {
+//    continue
+//   } else {
+//    arr.push(arr2[i])
+//   }
+//  }
+//  return arr
+// }
+// console.log(twoIntoOne(arr1, arr2));
+//------------------or----------
+// const oneArray = (arr1, arr2) => {
+//  let combinedArray = arr1.concat(arr2)
+//  let uniqueArray = combinedArray.filter((value, index) => combinedArray.indexOf(value) === index)
+//  return uniqueArray
+// }
+// console.log(oneArray(arr4, arr5))
+
+// 11. Create a function that takes in an array of mixed data types and returns the first value that is a string. HINT: look into the JavaScript .find() method.
+// const allTheData = [7, null, true, 2, "yo!", false, 4, "hello!"]
+// // output: "yo!"
+// const mixedData = (array) => {
+//  return array.filter(string => typeof string === "string")
+// }
+// console.log(mixedData(allTheData))
