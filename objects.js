@@ -147,3 +147,6 @@ console.log(triangleDimensionsOne.getData())
 // 2. Write the code that will update the base to be the value of 6.
 triangleDimensionsOne.base = 6;
 console.log(triangleDimensionsOne.getData())
+
+
+
