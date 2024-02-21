@@ -175,12 +175,42 @@
  * the firstName and lastName properties.
  * console.log the returned message to check your work
  */
-const person = {
-    firstName: "seth",
-    lastName: "crist",
-    fullName: function () {
-        return `Hello ${this.firstName} ${this.lastName}, I hope you have a great day today`
-    }
+// const person = {
+//     firstName: "seth",
+//     lastName: "crist",
+//     fullName: function () {
+//         return `Hello ${this.firstName} ${this.lastName}, I hope you have a great day today`
+//     }
+// }
+// console.log(person.fullName())
+
+//------------------------
+
+// Using a constructor function
+    // Two steps
+        // 1. define the object type by writing a constructor function, capitalize the first letter
+// Define the Person constructor function
+function Person(name, age, sex) {
+    this.name = name;
+    this.age = age;
+    this.sex = sex;
 }
-console.log(person.fullName())
+
+// Create a new Person instance
+const seth = new Person('Seth Crist', 29, 'male');
+
+// Define the Car constructor function, now including owner
+function Car(make, model, year, owner) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.owner = owner; // Added owner
+}
+
+// Create a new Car instance, passing in the Person instance as the owner
+const car1 = new Car("Nissan", "GTR", 2023, seth);
+
+// Accessing the name of the car's owner
+console.log(car1.owner.name); // This will correctly log "Seth Crist"
+
 
